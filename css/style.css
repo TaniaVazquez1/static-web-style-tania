@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6e6e6;
+    color: #333;
+}
+
+#main-header {
+    background-color: #1e2f3f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+#main-header h1 {
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #3b3f45;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #2e6be6;
+}
+
+.container {
+    max-width: 900px;   
+    margin: 30px auto; 
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2e6be6;
+    padding-bottom: 5px;
+}
+
+.highlight {
+    background-color: #dbe9ff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.tool-card {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.tool-card h3 {
+    color: #1e8f4d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #2e6be6;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #dbe9ff;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e2f3f;
+    color: white;
+    margin-top: 30px;
+}
